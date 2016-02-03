@@ -1,8 +1,105 @@
-<html>
-  <head>
-    <title>Recreating a Wireframe with Bootstrap</title>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
-  </head>
-  <body>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>Example 2</title>
+
+<link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <img src="img/Kij5eAxiq.png" style="padding:10px">
+         </div>
+        
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a> </li>
+            <li><a href="#">Jokes</a> </li>
+            <li><a href="#">Contact Us</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    <header>
+      <div class="jumbotron" style="height:500px;background:url(img/joker-hands-wait-so-now-the-joker-s-immortal-jpeg-244802.jpg);background-repeat:no-repeat">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6"  style="text-align:left;margin-top:200px">
+              <h4 style="color:white;text-align:left">Wanna See a Joke?</h4>
+              <p style="color:white;text-align:left"><a class="btn btn-primary btn-lg" href="#" role="button">Click Me</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <div class="container" >
+      <div class="row" style="padding:10px">
+        <div class="col-xs-6" >
+     
+            <div class="row">
+              <div class="col-xs-12">
+                <h2>Contact Us</h2>
+              </div>
+              <div class="col-lg-12"> 
+               
+                <form role="form" id="feedbackForm" >
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class ="form-control" placeholder="Name">
+       
+                  </div>
+                  <div class="form-group">
+                    <label>E-Mail</label>
+                    <input type="email" class="form-control" placeholder="Email Address">
+                  </div>
+                  <div class="form-group">
+                    <label>Message</label>
+                    <textarea rows="10" cols="50" class="form-control" placeholder="Message" style="resize:none"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-md" style=" margin-top: 10px;"> Send</button>
+                </form>
+              </div>
+            </div>
+        </div>
+        <div class = "col-xs-6 text-left" >
+        	<h3> Welcome to Jokes </h3>
+            <textarea readonly rows="17" cols="70" style="resize:none; padding:10px"> 	
+           Q:WHAT'S THE DIFFERENCE BETWEEN A JEW AND A CANOE?
+     	   A:A CANOE TIPS.
+        	
+           What do you call a guy with no arms or legs in the water?
+           Bob
+            
+           What do you call a girl with one leg?
+           Eileen	("I-Lean" for you dense folks)
+            
+           What do you call a dog with no legs?
+           Cigarette
+            
+           What do you say to a dog with no legs?
+          "Want to go for a drag?"
+ 			</textarea>
+        </div>
+      </div>
+    </div>
+    
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <p>Joker Nation</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+<script src="js/jquery.js"></script> 
+<script src="js/bootstrap.js"></script>
+</body>
 </html>

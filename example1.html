@@ -1,8 +1,154 @@
-<html>
-  <head>
-    <title>Standard Bootstrap Screenshot</title>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
-  </head>
-  <body>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+
+<title>Example 1</title>
+
+
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="style2.css">
+
+</head>
+<body>
+<nav class="navbar navbar-default navbar-inverse">
+  <div class="container-fluid"> 
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="#">CSE3345</a> </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav"> 
+        <li><a href="#">Home</a> </li>
+        <li class="active"><a href="#">Assignments <span class="sr-only">(current)</span></a> </li>
+        <li><a href="#">Lectuers</a> </li>
+        <li><a href="#">Contact</a> </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Acccount</a> </li>
+        <li><a href="#">Logout</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+	<div class = "row">
+    	<div class="col-sm-3">
+            <div class="mini-submenu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+       		</div>
+            <div class="list-group">
+                <span href="#" class="list-group-item active">
+                    Your Assignments
+                    
+                </span>
+                <li href="#" class="list-group-item greenBar" style="cursor:pointer">
+                    Assignment 1 <span class="badge greenBadge">92</span>
+                </li>
+                <li href="#" class="list-group-item greenBar" style="cursor:pointer">
+                    Assignment 2 <span class="badge greenBadge">100</span>
+                </li>
+                <li href="#" class="list-group-item yellowBar" style="cursor:pointer">
+                    Assignment 3 <span class="badge yellowBadge">74</span>
+                </li>
+                <li href="#" class="list-group-item redBar" style="cursor:pointer">
+                    Assignment 4 <span class="badge redBadge">23</span>
+                </li>
+                <li href="#" class="list-group-item greenBar" style="cursor:pointer">
+                    <i></i> Assignment 5  <span class="badge greenBadge">95</span>
+                </li>
+              
+            </div>
+        </div>
+
+        <div class="col-sm-9">
+        	<div class = "container" style="margin-bottom:100px">
+                <div class = "row col-sm-9">
+                	<h1>Assignment content</h1>
+              		Aenan Lacinia bibendum nulla sed consectetur
+                    <div class="alert alert-success col-sm-9">
+                      <strong>Well done!</strong> You got a 92 on this assignment
+                    </div>
+                </div>
+                <div class = "row col-sm-9">
+                	<h3> Grading Rubric</h3>
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>#</th>
+                          <th class = "col-sm-7">Description</th>
+                          <th class = "col-sm-2">Total Points</th>
+                          <th class = "col-sm-2">Your Points</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>1</th>
+                          <td class = "col-sm-8">Sed posuere consectetur est at lobortis.</td>
+                          <td class = "col-sm-2">40</td>
+                          <td class = "col-sm-2">40</td>
+                        </tr>
+                        <tr>
+                          <th>2</th>
+                          <td class = "col-sm-8">Donec id elit non mi porta gravida at eget metus.</td>
+                          <td class = "col-sm-2">40</td>
+                          <td class = "col-sm-2">40</td>
+                        </tr>
+                        <tr>
+                         <th>3</th>
+                          <td class = "col-sm-8">Morbi leo risis, prta ac consectetur ac, vestibulum at eros</td>
+                          <td class = "col-sm-2">20</td>
+                          <td class = "col-sm-2">12</td>
+                        </tr>
+                      </tbody>
+                      <tfoot>
+                      	<tr style="background:#CACACA" >
+                          <th></th>
+                          <td class = "col-sm-8" style="text-align:right"><span>Total</span></td>
+                          <td class = "col-sm-2">100</td>
+                          <td class = "col-sm-2">92</td>
+                        </tr>
+                      </tfoot>
+                    </table>
+               	</div>
+                <div class = "row col-sm-9" style="padding:10px">  	
+                	<div class = "col-md-6">
+                    	<h3>Comments</h3>
+                        Maecenas sed iam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fementum. Sed posuere consectetur est at lobortis. Donec sed odio dui Maecena faucibus mollis interdum.
+                    </div>
+                    
+                    <div class = "col-md-6">
+                    	<div class="card card-block" style="width:300px; style=padding:10px">
+                          <h4 class="card-title">Get Bonus points</h4>
+                          <p class="card-text">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                          <button type="submit" i class="btn btn-primary btn-mlg">Star Bonus Exercise </button>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row col-sm-9" style="padding:10px">
+                	<h3>Dispute Grade</h3>
+                	<form role="form" id="feedbackForm">
+                      <div class="form-group">
+                        <label>Complaint</label>
+                        <input type="text" class="form-control" placeholder="Your Complaint">
+                     </div>
+                      <div class="form-group">
+                        <label>Reason </label>
+                        <input type="text" class="form-control" placeholder="Your Reason">
+                       </div>
+                      
+                      <button type="submit" class="btn btn-primary btn-md"> Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+	</div>
+ </div>
+
+
+<script src="js/jquery-1.11.2.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+.greenBar{
+	background:#89C48E;
+}
+.yellowBar{
+	background:#E2E082;
+}
+.redBar{
+	background:#E78283;
+}
+.greenBadge{
+	background:#4CA84E;
+}
+.yellowBadge{
+	background:#D4BB18;
+}
+.redBadge{
+	background:#A21C1E;
+}
+
